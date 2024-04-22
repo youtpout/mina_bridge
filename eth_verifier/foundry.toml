@@ -3,6 +3,7 @@ src = "src"
 out = "out"
 libs = ["lib"]
 optimizer = false
+via_ir= true
 fs_permissions = [
     { access = "read", path = "./proof.mpk"},
     { access = "read", path = "./state.mpk"},
